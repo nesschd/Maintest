@@ -6,7 +6,7 @@
 /*   By: nchahed <nchahed@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/23 20:38:58 by nchahed           #+#    #+#             */
-/*   Updated: 2019/10/23 23:05:50 by nchahed          ###   ########.fr       */
+/*   Updated: 2019/10/24 14:09:20 by nchahed          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ int		main(void)
 	char	*mapi;
 	
 	ft_putendl_fd("Tests de substr :", 1);
-	substr = ft_substr("0123456789", 3, 5);
-	ft_putendl_fd("substr = \"0123456789\", 3, 5;", 1);
+	substr = ft_substr("0123456789", 400, 20);
+	ft_putendl_fd("substr = \"0123456789\", 400, 20;", 1);
 	ft_putendl_fd(substr, 1);
 	free(substr);
 	ft_putchar_fd('\n', 1);
